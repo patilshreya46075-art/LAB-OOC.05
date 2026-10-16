@@ -26,7 +26,10 @@ public:
 int main()
 {
     Distance d1(8, 9);
+    
     // Use (-) unary operator by single operand
+    cout<<d1.feet;
+    cout<<d1.inch;
     -d1;
     return 0;
 }
